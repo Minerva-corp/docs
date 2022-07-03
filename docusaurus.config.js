@@ -8,17 +8,17 @@ const { ts2esm2cjs } = require('@sapphire/docusaurus-plugin-ts2esm2cjs');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Minerva',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Official Documentations of Minerva : The Discord Bot',
+  url: 'https://minerva-corp.github.io',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'minerva-corp', // Usually your GitHub org/user name.
+  projectName: 'bot', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -42,7 +42,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Minerva-corp/minerva-corp.github.io/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -69,7 +69,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Minerva-corp/bot',
             label: 'GitHub',
             position: 'right',
           },
@@ -113,12 +113,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Minerva-corp/bot',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Minerva-corp, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Minerva Corp. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
