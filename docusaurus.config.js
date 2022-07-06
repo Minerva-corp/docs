@@ -13,12 +13,12 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/minerva.jpg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'minerva-corp', // Usually your GitHub org/user name.
-  projectName: 'bot', // Usually your repo name.
+  projectName: 'docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -42,7 +42,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Minerva-corp/minerva-corp.github.io/tree/master/',
+            'https://github.com/Minerva-corp/docs/tree/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,8 +57,8 @@ const config = {
       navbar: {
         title: 'Minerva',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Minerva Logo',
+          src: 'img/minerva.jpg',
         },
         items: [
           {
