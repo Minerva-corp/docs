@@ -44,3 +44,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           full_commit_message: ${{ github.event.head_commit.message }}
+          cname: minerva.my.id
