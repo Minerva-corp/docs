@@ -13,7 +13,7 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/minerva.jpg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -57,8 +57,8 @@ const config = {
       navbar: {
         title: 'Minerva',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Minerva Logo',
+          src: 'img/minerva.jpg',
         },
         items: [
           {
