@@ -4,6 +4,7 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const { ts2esm2cjs } = require('@sapphire/docusaurus-plugin-ts2esm2cjs');
+const { npm2yarn2pnpm } = require("@sapphire/docusaurus-plugin-npm2yarn2pnpm")
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -35,7 +36,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          remarkPlugins: [ts2esm2cjs],
+          remarkPlugins: [ts2esm2cjs, npm2yarn2pnpm],
         },
         blog: {
           showReadingTime: true,
