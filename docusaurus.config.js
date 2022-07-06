@@ -10,7 +10,7 @@ const config = {
   title: 'Minerva',
   tagline: 'Official Documentations of Minerva : The Discord Bot',
   url: 'https://minerva-corp.github.io',
-  baseUrl: '/docs/',
+  baseUrl: '/master/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
