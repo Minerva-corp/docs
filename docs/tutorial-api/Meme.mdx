@@ -1,0 +1,21 @@
+---
+sidebar_position: 0
+---
+
+
+## Example usage
+
+```typescript ts2esm2cjs|{3}|{3}
+import fetch from 'node-fetch';
+
+const fetchMeme = async () {
+    const response = await fetch("https://api.minerva.my.id/v1/meme").then(res => res.json());
+
+    console.log(response);
+}
+
+fetchMeme();
+```
+## What's next?
+
+- API Repository [Minerva-corp/api](https://github.com/Minerva-corp/api).
