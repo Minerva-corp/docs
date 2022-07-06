@@ -9,7 +9,7 @@ const { ts2esm2cjs } = require('@sapphire/docusaurus-plugin-ts2esm2cjs');
 const config = {
   title: 'Minerva',
   tagline: 'Official Documentations of Minerva : The Discord Bot',
-  url: 'https://minerva-corp.github.io',
+  url: 'https://minerva.my.id/',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
